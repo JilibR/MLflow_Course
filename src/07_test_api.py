@@ -17,7 +17,7 @@ json_data = {
 
 # Envoyer la requête à l'API
 response = requests.post(
-    url="http://localhost:5002/invocations",
+    url="http://localhost:8888/invocations",
     json=json_data,
     headers={"Content-Type": "application/json"}
 )
